@@ -18,3 +18,13 @@ python -m coverage report -m
 
 # Example of running the project
 python main.py
+
+## Running the Module
+
+To run the module, use the following command:
+
+```bash
+python module_test.py main.py test_data.json
+
+## To open the generated report in your browser:
+start test_report.html
