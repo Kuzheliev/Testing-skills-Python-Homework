@@ -15,3 +15,6 @@ python -m coverage html
 
 # Show coverage report in the terminal with missing lines
 python -m coverage report -m
+
+# Example of running the project
+python main.py
