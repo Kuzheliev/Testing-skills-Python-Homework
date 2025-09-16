@@ -1,0 +1,8 @@
+[
+  {
+    "description": "Basic test",
+    "input": {"forename": "John", "surname": "Doe"},
+    "expected_username": "jdoe",
+    "existing_usernames": ["jdoe1", "jdoe2"]
+  }
+]
