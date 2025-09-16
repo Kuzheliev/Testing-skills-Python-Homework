@@ -10,5 +10,8 @@ Testing-skills-Python-Homework
 git clone https://github.com/Kuzheliev/Testing-skills-Python-Homework.git
 cd Testing-skills-Python-Homework
 
-# Install dependencies
-pip install -r requirements.txt
+# Generate an HTML coverage report
+python -m coverage html
+
+# Show coverage report in the terminal with missing lines
+python -m coverage report -m
